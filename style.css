@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans&family=Kaushan+Script&family=Poppins:ital,wght@0,200;0,300;0,400;1,300;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: aqua;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  margin-left: 2rem;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  line-height: 35px;
+  border: 1px solid palevioletred;
+}
+
+.fav-section .card {
+  margin-left: -1rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  line-height: 35px;
+  border: 1px solid palevioletred;
+}
+
+.desk-lagu {
+  margin-left: 10px;
+}
+
+.card-box {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.songs {
+  display: inline-grid;
+  grid-template-columns: 70% 30%;
+}
+
+.all-songs h3 {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 1rem 2rem;
+}
+
+.favorite h3 {
+  margin-left: -1.4rem;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 1rem 0.2rem;
+}
+
+.fav-section {
+  border: 1px;
+  margin-top: -0.7rem;
+}
